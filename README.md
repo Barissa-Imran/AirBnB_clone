@@ -148,4 +148,5 @@ python3 -m unittest discover tests
 ### **0x06-authors**
 
 Imran Barissa <imranbarissa@gmail.com>
+
 Patrick Ndolo <ndolopatrick4@gmail.com>
