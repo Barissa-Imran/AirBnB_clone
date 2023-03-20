@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/103-common.css" />
+    <link rel="stylesheet" href="styles/103-filters.css" />
+    <link rel="stylesheet" href="styles/103-header.css" />
+    <link rel="stylesheet" href="styles/103-footer.css" />
+    <link rel="stylesheet" href="styles/103-places.css" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <title>ALX: Task 12 - Accessibility</title>
+  </head>
+  <body>
+    <header></header>
+
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>California, Arizona...</h4>
+          <div class="popover">
+            <h2>California</h2>
+            <ul>
+              <li>San Francisco</li>
+              <li>Los Angeles</li>
+              <li>New Mexico</li>
+            </ul>
+            <h2>Arizona</h2>
+            <ul>
+              <li>Phoenix</li>
+              <li>Hola</li>
+              <li>Garissa</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, kitchen...</h4>
+          <div class="popover" aria-label="popover">
+            <ul>
+              <li>Internet</li>
+              <li>Tv</li>
+              <li>Kitchen</li>
+              <li>Iron</li>
+              <li>Swimming pool</li>
+            </ul>
+          </div>
+        </div>
+
+        <button aria-label="Search button">Search</button>
+      </section>
+
+      <section class="places">
+        <h1>Places</h1>
+        <div class="listing">
+          <article>
+            <div class="list-motel">
+              <h2>My Home</h2>
+              <div class="price_by_night"><p>$50</p></div>
+            </div>
+            <div class="information">
+              <div class="max_guest"><p>5 Guests</p></div>
+              <div class="number_rooms"><p>4 Room</p></div>
+              <div class="number_bathrooms"><p>3 Bathrooms</p></div>
+            </div>
+            <div class="user">
+              <p><b>Owner</b>: Yasmin Malika</p>
+              <p></p>
+            </div>
+            <div class="description">
+              <p>
+                Every booking includes free protection from Host cancellations,
+                listing inaccuracies, and other issues like trouble checking in.
+              </p>
+            </div>
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li class="pat">Pet friendly</li>
+                <li class="tv">TV</li>
+                <li class="wifi">Wifi</li>
+              </ul>
+            </div>
+            <div class="reviews">
+              <h2>2 Reviews</h2>
+              <ul>
+                <li><h3>From Joy Joyous the 27th January 2021</h3></li>
+                <p>
+                  Cute is absolutely the correct adjective for this joy of a
+                  stay. Five stars!!
+                </p>
+                <li><h3>From Belial Gibson the 22nd January 2020</h3></li>
+                <p>
+                  The rooms were clean, very comfortable, and the staff was
+                  amazing. They went over and beyond to help make our stay
+                  enjoyable. I highly recommend this hotel for anyone visiting
+                  downtown
+                </p>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="list-motel">
+              <h2>Tiny House</h2>
+              <div class="price_by_night"><p>$35</p></div>
+            </div>
+            <div class="information">
+              <div class="max_guest"><p>1 Guests</p></div>
+              <div class="number_rooms"><p>1 Room</p></div>
+              <div class="number_bathrooms"><p>1 Bathrooms</p></div>
+            </div>
+            <div class="user">
+              <p><b>Owner</b>: Kichwa Name</p>
+            </div>
+            <div class="description">
+              <p>
+                The living room, then the toilet, then the bedroom. Guests can
+                dine on the perched terrace.
+              </p>
+            </div>
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li class="pat">Pet friendly</li>
+                <li class="tv">TV</li>
+                <li class="wifi">Wifi</li>
+              </ul>
+            </div>
+            <div class="reviews">
+              <h2>1 Reviews</h2>
+              <ul>
+                <li><h3>From Beti Bate the 21th November 2022</h3></li>
+                <p>
+                  They were extremely accommodating and allowed us to check in
+                  early at like 10am. We got to hotel super early and I didn’t
+                  wanna wait. So this was a big plus. The sevice was exceptional
+                  as well. Would definitely send a friend there.
+                </p>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="list-motel">
+              <h2>Apartment</h2>
+              <div class="price_by_night"><p>$35</p></div>
+            </div>
+            <div class="information">
+              <div class="max_guest"><p>1 Guests</p></div>
+              <div class="number_rooms"><p>1 Room</p></div>
+              <div class="number_bathrooms"><p>1 Bathrooms</p></div>
+            </div>
+            <div class="user">
+              <p><b>Owner</b>: Abel Mutua</p>
+            </div>
+            <div class="description">
+              <p>
+                The living room, then the toilet, then the bedroom. Guests can
+                dine on the perched terrace.
+              </p>
+            </div>
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li class="pat">Pet not allowed</li>
+                <li class="tv">TV</li>
+                <li class="wifi">Wifi</li>
+              </ul>
+            </div>
+            <div class="reviews">
+              <h2>2 Reviews</h2>
+              <ul>
+                <li><h3>From Lil Barry the 17th January 2020</h3></li>
+                <p>
+                  The staff at this property are all great! They all go above
+                  and beyond to make your stay comfortable. Please (HN) give
+                  your staff awards!
+                </p>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="list-motel">
+              <h2>VIP Suite</h2>
+              <div class="price_by_night"><p>$90</p></div>
+            </div>
+            <div class="information">
+              <div class="max_guest"><p>6 Guests</p></div>
+              <div class="number_rooms"><p>5 Room</p></div>
+              <div class="number_bathrooms"><p>5 Bathrooms</p></div>
+            </div>
+            <div class="user">
+              <p><b>Owner</b>: Barry Labs</p>
+            </div>
+            <div class="description">
+              <p>
+                Every booking includes free protection from Host cancellations,
+                listing inaccuracies, and other issues like trouble checking in.
+              </p>
+            </div>
+            <div class="amenities">
+              <h2>Amenities</h2>
+              <ul>
+                <li class="pat">Pet friendly</li>
+                <li class="tv">TV</li>
+                <li class="wifi">Wifi</li>
+                <li class="air">Air conditioner</li>
+              </ul>
+            </div>
+            <div class="reviews">
+              <h2>1 Reviews</h2>
+              <ul>
+                <li><h3>From Elon Musk the 21th November 2022</h3></li>
+                <p>
+                  The best hotel I’ve ever been privileged enough to stay at.
+                  Gorgeous building, and it only gets more breathtaking when you
+                  walk in. High quality rooms (there was even a tv by the
+                  shower), and high quality service. Also, they are one of few
+                  hotels that allow people under 21 to book a reservation.
+                </p>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div>Best School</div>
+    </footer>
+  </body>
+</html>
